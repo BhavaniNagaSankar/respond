@@ -1,0 +1,32 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure full height layout works */
+html, body, #root {
+  height: 100%;
+}
+
+/* Base font settings */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Basic body setup */
+body {
+  background-color: #f88585;
+  color: #000000;
+  display: block; /* prevents unwanted flex centering */
+}
+
+/* Optional link reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
