@@ -20,7 +20,7 @@ html, body, #root {
 
 /* Basic body setup */
 body {
-  background-color: #f88585;
+  background-color: pink;
   color: #000000;
   display: block; /* prevents unwanted flex centering */
 }
